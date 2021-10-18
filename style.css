@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    font-size: 20 px;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    color:firebrick;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.img1, .img2 {
+    position: relative;
+    opacity: 0.70;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-position:center;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/20/30/night-city-background-with-many-building-tall-vector-30502030.jpg");
+    min-height: 100%;
+}
+.img2
+{
+    background-image:url("https://videohive.img.customer.envatousercontent.com/files/3462d427-2081-4647-abe1-0547a40dbe92/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=cf468f1cc77a351ad135351eafad44be");
+min-height: 200px;
+}
+.section {
+    text-align:center;
+    padding: 50px 80 px;
+}
+.text, .text2 {
+    text-align: center;
+    position:absolute;
+    width:100%;
+    top:50%;
+    letter-spacing: 8px;
+    font-size: 30px;
+    text-transform:uppercase;
+    color: red
+}
+
+.text .border {background-color: salmon;
+color:yellow
+padding: 20px;
+}
